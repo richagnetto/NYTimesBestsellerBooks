@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		533C76B34F08AC9F70469E15 /* Pods_NYTimesBestSellerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AED4F6DAF4819E6E0060B13 /* Pods_NYTimesBestSellerApp.framework */; };
+		AC18B4221FDCEC7B00C66C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B4211FDCEC7B00C66C72 /* AppDelegate.swift */; };
+		AC18B4241FDCEC7B00C66C72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B4231FDCEC7B00C66C72 /* ViewController.swift */; };
+		AC18B4271FDCEC7B00C66C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC18B4251FDCEC7B00C66C72 /* Main.storyboard */; };
+		AC18B4291FDCEC7B00C66C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC18B4281FDCEC7B00C66C72 /* Assets.xcassets */; };
+		AC18B42C1FDCEC7B00C66C72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC18B42A1FDCEC7B00C66C72 /* LaunchScreen.storyboard */; };
+		AC18B4341FDCEF1200C66C72 /* BooksAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B4331FDCEF1200C66C72 /* BooksAPIClient.swift */; };
+		AC18B4361FDCF48100C66C72 /* BookListName.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B4351FDCF48100C66C72 /* BookListName.swift */; };
+		AC18B4381FDCF7AC00C66C72 /* BookListDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B4371FDCF7AC00C66C72 /* BookListDescription.swift */; };
+		AC18B43A1FDCFDEF00C66C72 /* ListNameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B4391FDCFDEF00C66C72 /* ListNameTableViewController.swift */; };
+		AC18B43C1FDD022300C66C72 /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B43B1FDD022300C66C72 /* BookList.swift */; };
+		AC18B43E1FDD02AA00C66C72 /* BookListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B43D1FDD02AA00C66C72 /* BookListCell.swift */; };
+		AC18B4401FDD046600C66C72 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B43F1FDD046600C66C72 /* RealmService.swift */; };
+		AC18B4441FDD29EE00C66C72 /* BestsellerBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B4431FDD29EE00C66C72 /* BestsellerBookTableViewController.swift */; };
+		AC18B4461FDD34F400C66C72 /* BestSellerListResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B4451FDD34F400C66C72 /* BestSellerListResults.swift */; };
+		AC18B4481FDD353400C66C72 /* BestSellerBookDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B4471FDD353400C66C72 /* BestSellerBookDetails.swift */; };
+		AC18B44A1FDD35F700C66C72 /* BestSellerBookTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B4491FDD35F700C66C72 /* BestSellerBookTitle.swift */; };
+		AC18B44C1FDD375400C66C72 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B44B1FDD375400C66C72 /* Book.swift */; };
+		AC18B44E1FDD3DB900C66C72 /* BookNameListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B44D1FDD3DB900C66C72 /* BookNameListCell.swift */; };
+		AC18B4501FDDB54900C66C72 /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B44F1FDDB54900C66C72 /* BookDetailsViewController.swift */; };
+		AC18B4571FDDDD9800C66C72 /* BestSellerBookReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18B4561FDDDD9800C66C72 /* BestSellerBookReview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E921848F4B0A2DB6224897D /* Pods-NYTimesBestSellerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesBestSellerApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYTimesBestSellerApp/Pods-NYTimesBestSellerApp.release.xcconfig"; sourceTree = "<group>"; };
+		4FCF608F7BD963D873C5EC12 /* Pods-NYTimesBestSellerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesBestSellerApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYTimesBestSellerApp/Pods-NYTimesBestSellerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5AED4F6DAF4819E6E0060B13 /* Pods_NYTimesBestSellerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimesBestSellerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC18B41E1FDCEC7B00C66C72 /* NYTimesBestSellerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesBestSellerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC18B4211FDCEC7B00C66C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC18B4231FDCEC7B00C66C72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC18B4261FDCEC7B00C66C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC18B4281FDCEC7B00C66C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC18B42B1FDCEC7B00C66C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC18B42D1FDCEC7B00C66C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC18B4331FDCEF1200C66C72 /* BooksAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksAPIClient.swift; sourceTree = "<group>"; };
+		AC18B4351FDCF48100C66C72 /* BookListName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListName.swift; sourceTree = "<group>"; };
+		AC18B4371FDCF7AC00C66C72 /* BookListDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListDescription.swift; sourceTree = "<group>"; };
+		AC18B4391FDCFDEF00C66C72 /* ListNameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNameTableViewController.swift; sourceTree = "<group>"; };
+		AC18B43B1FDD022300C66C72 /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
+		AC18B43D1FDD02AA00C66C72 /* BookListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListCell.swift; sourceTree = "<group>"; };
+		AC18B43F1FDD046600C66C72 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		AC18B4431FDD29EE00C66C72 /* BestsellerBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestsellerBookTableViewController.swift; sourceTree = "<group>"; };
+		AC18B4451FDD34F400C66C72 /* BestSellerListResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerListResults.swift; sourceTree = "<group>"; };
+		AC18B4471FDD353400C66C72 /* BestSellerBookDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerBookDetails.swift; sourceTree = "<group>"; };
+		AC18B4491FDD35F700C66C72 /* BestSellerBookTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerBookTitle.swift; sourceTree = "<group>"; };
+		AC18B44B1FDD375400C66C72 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		AC18B44D1FDD3DB900C66C72 /* BookNameListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNameListCell.swift; sourceTree = "<group>"; };
+		AC18B44F1FDDB54900C66C72 /* BookDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
+		AC18B4561FDDDD9800C66C72 /* BestSellerBookReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerBookReview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC18B41B1FDCEC7B00C66C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533C76B34F08AC9F70469E15 /* Pods_NYTimesBestSellerApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BB1C329364C53C0EB3C1D45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FCF608F7BD963D873C5EC12 /* Pods-NYTimesBestSellerApp.debug.xcconfig */,
+				1E921848F4B0A2DB6224897D /* Pods-NYTimesBestSellerApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC18B4151FDCEC7B00C66C72 = {
+			isa = PBXGroup;
+			children = (
+				AC18B4201FDCEC7B00C66C72 /* NYTimesBestSellerApp */,
+				AC18B41F1FDCEC7B00C66C72 /* Products */,
+				4BB1C329364C53C0EB3C1D45 /* Pods */,
+				D2FEA01162F032572793FAAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC18B41F1FDCEC7B00C66C72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC18B41E1FDCEC7B00C66C72 /* NYTimesBestSellerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC18B4201FDCEC7B00C66C72 /* NYTimesBestSellerApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC18B4211FDCEC7B00C66C72 /* AppDelegate.swift */,
+				AC18B4551FDDDCE300C66C72 /* Table Cells */,
+				AC18B4541FDDDCCD00C66C72 /* View Controllers */,
+				AC18B4511FDDDC0D00C66C72 /* JSON Structs */,
+				AC18B4521FDDDC4200C66C72 /* Realm Models */,
+				AC18B4331FDCEF1200C66C72 /* BooksAPIClient.swift */,
+				AC18B4251FDCEC7B00C66C72 /* Main.storyboard */,
+				AC18B43F1FDD046600C66C72 /* RealmService.swift */,
+				AC18B4281FDCEC7B00C66C72 /* Assets.xcassets */,
+				AC18B42A1FDCEC7B00C66C72 /* LaunchScreen.storyboard */,
+				AC18B42D1FDCEC7B00C66C72 /* Info.plist */,
+			);
+			path = NYTimesBestSellerApp;
+			sourceTree = "<group>";
+		};
+		AC18B4511FDDDC0D00C66C72 /* JSON Structs */ = {
+			isa = PBXGroup;
+			children = (
+				AC18B4371FDCF7AC00C66C72 /* BookListDescription.swift */,
+				AC18B4351FDCF48100C66C72 /* BookListName.swift */,
+				AC18B4451FDD34F400C66C72 /* BestSellerListResults.swift */,
+				AC18B4471FDD353400C66C72 /* BestSellerBookDetails.swift */,
+				AC18B4561FDDDD9800C66C72 /* BestSellerBookReview.swift */,
+				AC18B4491FDD35F700C66C72 /* BestSellerBookTitle.swift */,
+			);
+			path = "JSON Structs";
+			sourceTree = "<group>";
+		};
+		AC18B4521FDDDC4200C66C72 /* Realm Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC18B43B1FDD022300C66C72 /* BookList.swift */,
+				AC18B44B1FDD375400C66C72 /* Book.swift */,
+			);
+			path = "Realm Models";
+			sourceTree = "<group>";
+		};
+		AC18B4541FDDDCCD00C66C72 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC18B4231FDCEC7B00C66C72 /* ViewController.swift */,
+				AC18B44F1FDDB54900C66C72 /* BookDetailsViewController.swift */,
+				AC18B4431FDD29EE00C66C72 /* BestsellerBookTableViewController.swift */,
+				AC18B4391FDCFDEF00C66C72 /* ListNameTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AC18B4551FDDDCE300C66C72 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AC18B44D1FDD3DB900C66C72 /* BookNameListCell.swift */,
+				AC18B43D1FDD02AA00C66C72 /* BookListCell.swift */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		D2FEA01162F032572793FAAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AED4F6DAF4819E6E0060B13 /* Pods_NYTimesBestSellerApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC18B41D1FDCEC7B00C66C72 /* NYTimesBestSellerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC18B4301FDCEC7B00C66C72 /* Build configuration list for PBXNativeTarget "NYTimesBestSellerApp" */;
+			buildPhases = (
+				CA8B7A07AB6B24200EFD3F09 /* [CP] Check Pods Manifest.lock */,
+				AC18B41A1FDCEC7B00C66C72 /* Sources */,
+				AC18B41B1FDCEC7B00C66C72 /* Frameworks */,
+				AC18B41C1FDCEC7B00C66C72 /* Resources */,
+				F8C2200FB748C3D32F1D16A8 /* [CP] Embed Pods Frameworks */,
+				5237C8EEBB8379F4C93E9ACA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYTimesBestSellerApp;
+			productName = NYTimesBestSellerApp;
+			productReference = AC18B41E1FDCEC7B00C66C72 /* NYTimesBestSellerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC18B4161FDCEC7B00C66C72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ralston Goes";
+				TargetAttributes = {
+					AC18B41D1FDCEC7B00C66C72 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC18B4191FDCEC7B00C66C72 /* Build configuration list for PBXProject "NYTimesBestSellerApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC18B4151FDCEC7B00C66C72;
+			productRefGroup = AC18B41F1FDCEC7B00C66C72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC18B41D1FDCEC7B00C66C72 /* NYTimesBestSellerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC18B41C1FDCEC7B00C66C72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC18B42C1FDCEC7B00C66C72 /* LaunchScreen.storyboard in Resources */,
+				AC18B4291FDCEC7B00C66C72 /* Assets.xcassets in Resources */,
+				AC18B4271FDCEC7B00C66C72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5237C8EEBB8379F4C93E9ACA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYTimesBestSellerApp/Pods-NYTimesBestSellerApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA8B7A07AB6B24200EFD3F09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYTimesBestSellerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C2200FB748C3D32F1D16A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NYTimesBestSellerApp/Pods-NYTimesBestSellerApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYTimesBestSellerApp/Pods-NYTimesBestSellerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC18B41A1FDCEC7B00C66C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC18B4241FDCEC7B00C66C72 /* ViewController.swift in Sources */,
+				AC18B4361FDCF48100C66C72 /* BookListName.swift in Sources */,
+				AC18B44C1FDD375400C66C72 /* Book.swift in Sources */,
+				AC18B43A1FDCFDEF00C66C72 /* ListNameTableViewController.swift in Sources */,
+				AC18B4341FDCEF1200C66C72 /* BooksAPIClient.swift in Sources */,
+				AC18B4481FDD353400C66C72 /* BestSellerBookDetails.swift in Sources */,
+				AC18B4571FDDDD9800C66C72 /* BestSellerBookReview.swift in Sources */,
+				AC18B4401FDD046600C66C72 /* RealmService.swift in Sources */,
+				AC18B4441FDD29EE00C66C72 /* BestsellerBookTableViewController.swift in Sources */,
+				AC18B43E1FDD02AA00C66C72 /* BookListCell.swift in Sources */,
+				AC18B4461FDD34F400C66C72 /* BestSellerListResults.swift in Sources */,
+				AC18B4501FDDB54900C66C72 /* BookDetailsViewController.swift in Sources */,
+				AC18B44E1FDD3DB900C66C72 /* BookNameListCell.swift in Sources */,
+				AC18B43C1FDD022300C66C72 /* BookList.swift in Sources */,
+				AC18B44A1FDD35F700C66C72 /* BestSellerBookTitle.swift in Sources */,
+				AC18B4381FDCF7AC00C66C72 /* BookListDescription.swift in Sources */,
+				AC18B4221FDCEC7B00C66C72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC18B4251FDCEC7B00C66C72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC18B4261FDCEC7B00C66C72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC18B42A1FDCEC7B00C66C72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC18B42B1FDCEC7B00C66C72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC18B42E1FDCEC7B00C66C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC18B42F1FDCEC7B00C66C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC18B4311FDCEC7B00C66C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCF608F7BD963D873C5EC12 /* Pods-NYTimesBestSellerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FY7QGJM2E;
+				INFOPLIST_FILE = NYTimesBestSellerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richagnetto.NYTimesBestSellerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC18B4321FDCEC7B00C66C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E921848F4B0A2DB6224897D /* Pods-NYTimesBestSellerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FY7QGJM2E;
+				INFOPLIST_FILE = NYTimesBestSellerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richagnetto.NYTimesBestSellerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC18B4191FDCEC7B00C66C72 /* Build configuration list for PBXProject "NYTimesBestSellerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC18B42E1FDCEC7B00C66C72 /* Debug */,
+				AC18B42F1FDCEC7B00C66C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC18B4301FDCEC7B00C66C72 /* Build configuration list for PBXNativeTarget "NYTimesBestSellerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC18B4311FDCEC7B00C66C72 /* Debug */,
+				AC18B4321FDCEC7B00C66C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC18B4161FDCEC7B00C66C72 /* Project object */;
+}
