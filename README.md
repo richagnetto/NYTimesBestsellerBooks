@@ -1,0 +1,2 @@
+# NYTimesBestsellerBooks
+An iOS app built in Swift 4 that utilizes data from the New York Times Books API to display categories of bestseller lists and the corresponding books in the lists sorted by rank/number of weeks on the bestseller list. Also provides the user with book details, description, review and a link to the book on Amazon. Uses Realm to create a local database &amp; Alamofire for networking.
